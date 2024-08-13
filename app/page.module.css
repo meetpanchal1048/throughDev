@@ -1,0 +1,409 @@
+@font-face {
+  font-family: poppins;
+  src: url("./assert/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: poppinsBold;
+  src: url("./assert/Poppins-Bold.ttf");
+}
+
+.emptyDiv{
+  text-align: center;
+}
+
+.mainBody {
+  margin: 0;
+  font-family: "poppins";
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow: none;
+  background-color: black;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
+  margin: 0;
+}
+
+.brokenLink {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.shrlnks_1 {
+  position: relative;
+  background-image: url(./assert/desk_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shrlnks_2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shrlnks_3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+.shrlnks_3 h2 {
+  font-family: "poppinsBold";
+  margin: 0;
+}
+
+.shrlnks_3 p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.shrlnks_4 {
+  width: 100%;
+}
+
+.shrlnks_5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.shrlnks_5 a:nth-child(1) {
+  width: 35%;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.copyIcon {
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.mediaIcons {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shrlnks_6 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shrlnks_6 a {
+  padding: 15px !important;
+}
+
+.shrlnks_7 {
+  background-image: url(./assert/desk_bg.png);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'poppinsBold';
+}
+
+/* BLOG CSS */
+
+.blogscss1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  scroll-behavior: smooth;
+  background-color: #ece9e3;
+  min-height: 94vh;
+}
+
+.blogscss2 {
+  padding-top: 3%;
+  width: 50%;
+}
+
+.blogscss3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogsMainTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15%;
+}
+
+.blogsMainTitle h2 {
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.blogsMainTitle p {
+  font-size: 20px;
+  margin: 0;
+  color: #bf8f38;
+}
+
+.blogscss3 {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogstag {
+  color: #bf8f38;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.blogsTitle {
+  font-size: 20px;
+  font-family: 'poppinsBold';
+  margin: 0;
+  margin: 7px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blogsTitle a {
+  color: black;
+  text-decoration: none;
+}
+
+.blogsDesc {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.blogscss4 {
+  width: 50%;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.blogTitle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.blogTitle a {
+  color: #bf8f38;
+  position: absolute;
+  left: -65px;
+  top: 10px;
+  font-size: 25px;
+}
+
+.blogTitle h1 {
+  margin: 0;
+}
+
+.blogTitle p {
+  margin: 0;
+  color: #bf8f38;
+}
+
+.blogDesc {
+  width: 100%;
+  white-space: break-spaces;
+  font-size: 20px;
+  font-family: "poppins";
+  margin-top: 10%;
+}
+
+.blogDesc img{
+  border-radius: 15px;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.blogDesc pre{
+  background-color: #040041;
+  white-space: break-spaces;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 17px;
+}
+
+/* Other Components */
+
+.navMain {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 50px;
+  box-sizing: border-box;
+  background-color: #ece9e3;
+  position: sticky;
+  top: 0;
+}
+
+.navLogo {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.navStackLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.navStackLinks a {
+  transition: 0.5s;
+  color: #ad7d6b;
+  text-decoration: none;
+}
+
+.navStackLinks a:hover {
+  transition: 0.5s;
+  color: black;
+}
+
+.navSocialLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navSocialLinks a {
+  color: black;
+  text-decoration: none;
+}
+
+.footerMain{
+  color: #ad7d6b;
+  background-color: #ece9e3;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Home Screen */
+
+.homeMain{
+  width: 100%;
+  height: 100vh;
+  background-color: #ece9e3;
+}
+
+.homeHero{
+  margin-top: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeHero h1{
+  width: 60%;
+  text-align: center;
+  color: #ad7d6b;
+  font-size: 50px;
+  font-family: 'poppinsBold';
+}
+
+.homeStacks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.homeStacks p{
+  margin: 0;
+  color: black;
+}
+
+.homeStacks div{
+  display: flex;
+  gap: 15px;
+}
+
+.homeStacks a{
+  padding: 5px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.homeFooter{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+  .shrlnks_1 {
+    background-image: url(./assert/mobile_bg.png);
+  }
+
+  .shrlnks_5 {
+    flex-direction: column;
+  }
+
+  .shrlnks_5 a:nth-child(1) {
+    width: 60%;
+  }
+}
