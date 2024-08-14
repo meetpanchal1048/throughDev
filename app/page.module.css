@@ -278,6 +278,10 @@
   font-size: 17px;
 }
 
+.blogDesc span{
+  background-color: #afafaf;
+}
+
 /* Other Components */
 
 .navMain {
@@ -391,6 +395,14 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.link{
+  color: white;
+  background-color: black;
+  padding: 5px 20px;
+  border-radius: 50px;
+  text-decoration: none;
 }
 
 

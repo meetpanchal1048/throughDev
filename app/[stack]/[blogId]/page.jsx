@@ -39,7 +39,7 @@ export default async function page({ params }) {
                     {/* <pre className={styles.blogDesc}>
                         {filteredBlog.desc}
                     </pre> */}
-                    <a href={filteredBlog.link} className={styles.link}>Codepen Link</a>
+                    {filteredBlog.link == null || filteredBlog.link == '' ? '': <a href={filteredBlog.link} className={styles.link}>{filteredBlog.stack == "reactjs" ? 'StackBlitz Link' : 'Codepen Link'}</a>}
                 </div>
             </div>
             <Footer />

@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import { Navbar } from "@/otherComponents/page";
 import { Footer } from "@/otherComponents/page";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 export const metadata = {
@@ -12,6 +12,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+      <GoogleAnalytics gaId="G-2VYXCFG39F" />
       <div className={styles.homeMain}>
         <Navbar />
         <div className={styles.homeHero}>
