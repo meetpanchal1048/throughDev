@@ -9,6 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        
         {/* Codespaces */}
         <meta name="google-site-verification" content="T9mtIxRwxUK65Cx7F-HzAQjfQPkQU7AjVM1C9vXQhgc" />
         {/* Test tag */}

@@ -8,6 +8,11 @@
   src: url("./assert/Poppins-Bold.ttf");
 }
 
+@font-face {
+  font-family: poly;
+  src: url(./assert/Poly-Regular.ttf);
+}
+
 .emptyDiv{
   text-align: center;
 }
@@ -156,6 +161,7 @@
   scroll-behavior: smooth;
   background-color: #ece9e3;
   min-height: 94vh;
+  /* font-family: 'tinos'; */
 }
 
 .blogscss2 {
@@ -170,6 +176,7 @@
 }
 
 .blogsMainTitle {
+  font-family: poppinsBold;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,6 +223,7 @@
 }
 
 .blogsDesc {
+  font-family: poly;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -247,10 +255,12 @@
 }
 
 .blogTitle h1 {
+  font-family: 'poppinsBold';
   margin: 0;
 }
 
 .blogTitle p {
+  font-family: 'poppins';
   margin: 0;
   color: #bf8f38;
 }
@@ -259,14 +269,15 @@
   width: 100%;
   white-space: break-spaces;
   font-size: 20px;
-  font-family: "poppins";
+  font-family: "poly";
   margin-top: 10%;
+  line-height: 30px;
 }
 
 .blogDesc img{
   border-radius: 15px;
   width: 100%;
-  margin: 50px 0;
+  margin-bottom: 50px;
 }
 
 .blogDesc pre{
@@ -279,7 +290,12 @@
 }
 
 .blogDesc span{
+  font-size: 18px;
   background-color: #afafaf;
+}
+
+.blogDesc h3{
+  margin-bottom: 0;
 }
 
 /* Other Components */
